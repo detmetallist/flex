@@ -1,0 +1,190 @@
+@media (max-width: 1024px){
+	.section4{
+		/*position: relative; 
+		top: 0; */
+	}
+	.section_content h2{
+		margin-top: 20px;
+	}
+	.chast_img h3{
+		font-size: 26px;
+	}
+	.strelka_left{
+		left: 10px;
+	}
+	.strelka_right{
+		right: 10px;
+	}
+	.strelka_left, .strelka_right{
+		top: 135px;
+		z-index: 50;
+	}
+	h1{
+		font-size: 26px !important;
+	}
+	h2{
+		font-size: 20px !important;
+	}
+	h3{
+		font-size: 20px !important;
+	}
+	.section2{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.chasti_tela .chast{
+		width: 90vw;
+		margin-bottom: 30px;
+	}
+	.chasti_tela .chast_cont{
+		flex-direction: column;
+		width: 100%;
+	}
+	.strelka_left, .strelka_right{
+		display: none;
+	}
+	.section3{
+		margin-top: 0;
+		padding-top: 0;
+	}
+}
+@media (max-width: 420px){
+	.strelka_left, .strelka_right{
+		display: none;
+	}
+	.section_content h1{
+		font-size: 24px;
+    	padding-top: 30vh;
+	}
+	.section_content h2{
+		font-size: 24px;
+	}
+	.strelka{
+		width: 35px;
+    	height: 28px;
+    	bottom: 15px;
+	}
+	.chasti_tela_wrap{
+		width: 100%;
+	}
+	.chasti_tela{
+		width: 100%;
+		overflow-x: scroll;
+	}
+	.chasti_tela .chast_cont{
+		flex-direction: row;
+		width: 300vw;
+	}
+	.chasti_tela .chast{
+		width: 75vw;
+	}
+	.chasti_tela .chast_img{
+		height: 85vw;
+	}
+	.chasti_tela .chast_img img{
+		height: 100%;
+		width: auto;
+	}
+	.chasti_tela .chast{
+		height: calc(85vw + 280px)
+	}
+	.section2{
+		padding-bottom: 0;
+	}
+	#video1,#video2, #video3{
+		display: none;
+	}
+	#video1_v{
+		display: block;
+	}
+	.section1{
+		height: 90vh;
+		max-height: 90vh;
+	}
+	.video{
+		height: 90vh;
+		max-height: 90vh;
+	}
+	.section_content{
+		height: 90vh;
+		max-height: 90vh;
+	}
+	.test_container{
+		width:100%;
+		display: block;
+	}
+	.test_item{
+		display: none;
+		position: fixed;
+		z-index: 2;
+		margin-top: 10px;
+	}
+	.test_item:nth-child(1){
+		display: block;
+	}
+	.test_tochki{
+		position: fixed;
+		bottom: 20px;
+	    left: 0;
+	    right: 0;
+	    z-index: 1;
+	}
+}
+@media (max-width: 420px) and (max-height: 500px){
+	.test_item{
+		display: none;
+		position: fixed;
+		z-index: 2;
+		margin-top: -100px;
+	}
+}
+@media (max-height: 1024px) and (max-width: 480px){
+	.test_item_top h2{
+		font-size: 20px;
+	}
+	.test_item_bottom button{
+		font-size: 20px;
+	}
+	.test_item_bottom p{
+		padding-top: 20px;
+		margin: 0 auto 20px;
+    	font-size: 14px;
+	}
+}
+@media (max-width: 1024px) and (max-height: 480px){
+	.test_item_top h2{
+		font-size: 20px;
+	}
+	.test_item_bottom button{
+		font-size: 20px;
+	}
+	.test_item_bottom p{
+		padding-top: 20px;
+		margin: 0 auto 20px;
+    	font-size: 12px;
+	}
+	.test_item{
+		width: 80vw;
+	}
+	.test_item_bottom ul li{
+		font-size: 12px;
+	}
+	.test_tochki{
+		margin: 20px auto 0;
+	}
+	.test_item_bottom button{
+		font-size: 18px;
+		padding: 8px 60px;
+	}
+	.test_item_top{
+		height: 30%;
+	}
+	.test_item_bottom{
+		height: 70%;
+	}
+	input[type='text']{
+		float: left;
+		margin-left: 10%;
+		font-size: 13px;
+	}
+}
